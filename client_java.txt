@@ -12,7 +12,7 @@ public class client
 
 	BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
 
-	Socket clientSocket = new Socket("192.168.253.130", 4567);
+	Socket clientSocket = new Socket("192.168.109.1", 4567);
 
 	DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
 
